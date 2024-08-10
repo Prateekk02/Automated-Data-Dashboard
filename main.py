@@ -31,6 +31,6 @@ if uploaded_file is not None:
         st.line_chart(filtered_df.set_index(x_col)[y_col])
         
 else:
-    st.write("Waiting on file upload...")        
+    st.write("Waiting for file upload...")        
     
  
